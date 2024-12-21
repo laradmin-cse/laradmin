@@ -11,7 +11,12 @@ function are_utilities()
     return Request::is(['borders', 'colors', 'animations', 'other']);
 }
 
-function is_open($link)
+function are_pages()
+{
+    return Request::is(['signin', 'signup', 'forgot-password', '404', 'blank']);
+}
+
+function is_active($link)
 {
     return Request::path() === $link;
 }
