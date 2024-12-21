@@ -15,6 +15,7 @@
             <h6 class="collapse-header">Other Pages:</h6>
             <a class="collapse-item @if(is_active('404')) active @endif" href="{{ url('/404') }}">404 Page</a>
             <a class="collapse-item @if(is_active('blank')) active @endif" href="{{ url('/blank') }}">Blank Page</a>
+            <a class="collapse-item @if(is_active('profile')) active @endif" href="{{ url('/profile') }}">Profile Page</a><!-- Step 1: Adding a Page - Profile::SideNavDefining -->
         </div>
     </div>
 </li>

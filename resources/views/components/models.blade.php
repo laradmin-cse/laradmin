@@ -1,6 +1,5 @@
-<!-- Step 3: Adding a Component - Models::PageAdding -->
 @extends('layouts.app')
-<!-- Step 4:  Adding a Component - Models::ViewDefining-->
+
 @section('content')
 <h1 class="h3 mb-1 text-gray-800">Bootstrap Models</h1><!-- Page Heading -->
 <p class="mb-4">Dialog boxes to display lightbox, notifications, or other custom content</p>

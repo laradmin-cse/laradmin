@@ -3,7 +3,7 @@
 
 function are_components()
 {
-    return Request::is(['buttons', 'cards', 'alerts', 'models']); //<!-- Step 6:  Adding a Component - Models::NavigationAdjusting by adding the newly created component into the array-->
+    return Request::is(['buttons', 'cards', 'alerts', 'models']);
 }
 
 function are_utilities()
@@ -13,7 +13,7 @@ function are_utilities()
 
 function are_pages()
 {
-    return Request::is(['signin', 'signup', 'forgot-password', '404', 'blank']);
+    return Request::is(['signin', 'signup', 'forgot-password', '404', 'blank', 'profile']); //<!-- Step 5:  Adding a Page - Profile::NavigationAdjustment-->
 }
 
 function is_active($link)

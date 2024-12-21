@@ -11,7 +11,7 @@
             <a class="collapse-item @if(is_active('buttons')) active @endif" href="{{ url('/buttons') }}">Buttons</a>
             <a class="collapse-item @if(is_active('cards')) active @endif" href="{{ url('/cards') }}">Cards</a>
             <a class="collapse-item @if(is_active('alerts')) active @endif" href="{{ url('/alerts') }}">Alerts</a>
-            <a class="collapse-item @if(is_active('models')) active @endif" href="{{ url('/models') }}">Models</a><!-- Step 1: Adding a Component - Models::Listing -->
+            <a class="collapse-item @if(is_active('models')) active @endif" href="{{ url('/models') }}">Models</a>
         </div>
     </div>
 </li>

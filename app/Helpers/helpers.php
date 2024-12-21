@@ -1,5 +1,5 @@
 <?php
-/* Put your Helper Functions Here */
+/* Put your Helper Functions Here, if there is need. */
 
 use App\Models\User;
 
@@ -29,6 +29,6 @@ function message4()
 }
 
 function lorem_ipsum_long()
-{ //Step 5:  Adding a Component - Models::Adding text helper
+{
   return "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 }

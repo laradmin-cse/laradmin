@@ -20,7 +20,7 @@ Route::group(['middleware' => 'auth'], function () {
         return view('components.alerts');
     });
 
-    Route::get('/models', function () {/* Step 2: Adding a Component - Models::RouteDefining */
+    Route::get('/models', function () {
         return view('components.models');
     });
 
@@ -60,6 +60,10 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/blank', function () {
         return view('pages.blank');
+    });
+
+    Route::get('/profile', function () {/* Step 2: Adding a Page - Profile::RouteDefining */
+        return view('pages.profile');
     });
 
     Route::get('/charts', function () {
