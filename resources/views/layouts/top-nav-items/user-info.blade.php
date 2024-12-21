@@ -2,7 +2,7 @@
 <li class="nav-item dropdown no-arrow">
     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <span class="me-2 d-none d-lg-inline text-gray-600 small fw-bold">
+        <span class="me-3 d-none d-lg-inline text-white small fw-bold">
             {{auth()->user()->name}}
         </span>
         <img class="img-profile rounded-circle"

@@ -2,7 +2,7 @@
 <li class="nav-item dropdown no-arrow d-sm-none">
     <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        </i><i class="bi bi-search"></i>
+        <span class="fw-bold"><i class="bi bi-search"></i></span>
     </a>
 
     <!-- Search -->
@@ -14,8 +14,8 @@
                     placeholder="Search for..." aria-label="Search"
                     aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                    <button class="btn btn-primary" type="button">
-                        <i class="bi bi-search"></i>
+                    <button class="btn btn-dark" type="button">
+                        <span class="fw-bold"><i class="bi bi-search"></i></span>
                     </button>
                 </div>
             </div>
